@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="max-w-[1120px]">
-    
-        </div>
+      <div class="max-w-[1120px]"></div>
 
-        <!-- diyorbek -->
-        <!-- diyorbek -->
+      <!-- diyorbek -->
+
+      <main class="">
+        <div class="main flex bg-gray-700">
+          <div class="main__left">
+            <h3>Who we work with</h3>
+            <p>
+              Today, millions of people around the world have successfully
+              connected their accounts to apps they love using our API. We
+              provide developers with the tools they need to create easy and
+              accessible experiences for their users.
+            </p>
+            <button>About Us</button>
+          </div>
+          <div class="main__right">
+            <img src="./images/tesla.svg" alt="" />
+            <img src="./images/microsoft.svg" alt="" />
+            <img src="./images/hp.svg" alt="" />
+            <img src="./images/oracle.svg" alt="" />
+            <img src="./images/google.svg" alt="" />
+            <img src="./images/nvidia.svg" alt="" />
+          </div>
+        </div>
+      </main>
+      <!-- diyorbek -->
     </header>
 
-       <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    container: {
-                        center: true,
-                        padding: '1rem',
-                        maxWidth: '1184px',
-                    },
-                    colors: {
-                        'gray': '#E1E3E6',
-                        'red': '#DD3333'
-                    }
-                    ,
-                    borderRadius: {
-                        '2.5xl': '20px'
-                    },
-                    fontFamily: {
-                        'montserrat': 'Montserrat'
-                    },
-                    lineHeight: {
-                        130: '130%'
-                    },
-                    
-                },
+      tailwind.config = {
+        theme: {
+          extend: {
+            container: {
+              center: true,
+              padding: "1rem",
+              maxWidth: "1184px",
             },
-        }
+            colors: {
+              gray: "#E1E3E6",
+              red: "#DD3333",
+            },
+            borderRadius: {
+              "2.5xl": "20px",
+            },
+            fontFamily: {
+              montserrat: "Montserrat",
+            },
+            lineHeight: {
+              130: "130%",
+            },
+          },
+        },
+      };
     </script>
-</body>
+  </body>
 </html>
